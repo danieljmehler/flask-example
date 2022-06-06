@@ -1,0 +1,14 @@
+<!doctype html>
+<title>Harry Potter Characters</title>
+<table>
+    <tr>
+        <th>Name</th>
+    </tr>
+    {% for character in characters.characters %}
+    <tr>
+        <td>
+            {{ character.name }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
